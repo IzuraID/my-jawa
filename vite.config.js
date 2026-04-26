@@ -8,6 +8,5 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/izura/', // <--- Tambahkan nama repository-mu di sini, diapit garis miring
-  base: '/izura-my/', // <--- Sesuaikan dengan nama repository Github-mu (izura-my)
+  base: '/', // <--- Karena pakai custom domain, kembalikan ke root ('/')
 })
