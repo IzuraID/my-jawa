@@ -9,4 +9,5 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   base: '/izura/', // <--- Tambahkan nama repository-mu di sini, diapit garis miring
+  base: '/izura-my/', // <--- Sesuaikan dengan nama repository Github-mu (izura-my)
 })
