@@ -18,6 +18,14 @@ const certificatesData = [
     link: 'https://mikrotik.com/training/certificates/c456188c01d1bc9bbafa'
   },
   {
+    img: '/packages/images/DBS.jpg',
+    name: 'Machine Learning Engineer',
+    issuer: 'DBS Foundation | Dicoding',
+    date: '2025',
+    category: 'official',
+    link: '/packages/pdf/DBS.pdf'
+  },
+  {
     img: '/packages/images/LKS.png',
     name: 'Runner Up LKS Province Level ITNSA 2024',
     issuer: 'DIKPORA DIY',
@@ -37,6 +45,14 @@ const certificatesData = [
     issuer: 'Badan Ekraf | Dicoding',
     date: '2024',
     category: 'official',
+  },
+  {
+    img: '/packages/images/Binance.jpg',
+    name: 'Web3 University Tour',
+    issuer: 'Binance Academy',
+    date: '2026',
+    category: 'course',
+    link: 'https://drive.google.com/file/d/1d87cIsaeJ5nxgjvNyWuF1e93lfKagtc9/view?usp=sharing'
   },
   {
     img: '/packages/images/NetBas.png',
