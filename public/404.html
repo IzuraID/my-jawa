@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>404 - Page Not Found</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --hue-color: 190;
+      --first-color: hsl(var(--hue-color), 69%, 61%);
+      --first-color-alt: hsl(var(--hue-color), 57%, 53%);
+      --body-color: hsl(var(--hue-color), 60%, 99%);
+      --container-color: #fff;
+      --title-color: hsl(var(--hue-color), 8%, 15%);
+      --text-color: hsl(var(--hue-color), 8%, 45%);
+      --body-font: "Poppins", sans-serif;
+    }
+
+    body {
+      margin: 0;
+      font-family: var(--body-font);
+      background-color: var(--body-color);
+      color: var(--text-color);
+    }
+
+    .error {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      text-align: center;
+    }
+
+    .error__container {
+      max-width: 600px;
+      padding: 2rem;
+      background-color: var(--container-color);
+      border-radius: 0.5rem;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      margin: 0 1.5rem;
+    }
+
+    .error__title {
+      font-size: 6rem;
+      font-weight: 700;
+      margin-bottom: 1rem;
+      color: var(--title-color);
+    }
+
+    .error__subtitle {
+      font-size: 2rem;
+      font-weight: 600;
+      margin-bottom: 1rem;
+      color: var(--title-color);
+    }
+
+    .error__description {
+      font-size: 1rem;
+      color: var(--text-color);
+      margin-bottom: 2rem;
+    }
+
+    .button--flex--404 {
+      display: inline-flex;
+      align-items: center;
+      padding: 0.75rem 1.5rem;
+      background-color: var(--first-color);
+      color: #fff;
+      border: none;
+      border-radius: 0.5rem;
+      text-decoration: none;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .button--flex--404:hover {
+      background-color: var(--first-color-alt);
+    }
+  </style>
+</head>
+<body>
+  <div class="error">
+    <div class="error__container">
+      <h1 class="error__title">404</h1>
+      <h2 class="error__subtitle">Page Not Found</h2>
+      <p class="error__description">Maaf, halaman yang kamu cari tidak ditemukan atau mungkin sudah dipindahkan.</p>
+      <a href="/" class="button--flex--404">
+        Kembali ke Beranda
+      </a>
+    </div>
+  </div>
+</body>
+</html>
